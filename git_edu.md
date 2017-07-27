@@ -1,6 +1,3 @@
-# git 勉強会 構成シート
-
-
 # gitとは
 - wiki見ろ
 	- https://ja.wikipedia.org/wiki/Git
@@ -154,7 +151,6 @@
 
 ````
 ```
-#!/usr/bin/env python
  
 def main():
     print("Hello World")
