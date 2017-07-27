@@ -1,7 +1,7 @@
 # gitとは
 - wiki見ろ
 	- https://ja.wikipedia.org/wiki/Git
-- linuxを開発したリナックストーバルズがlinuxの開発のために開発した分散型バージョン管理システム
+- linuxを開発したライナストーバルズがlinuxカーネルの開発のために開発した分散型バージョン管理システム
 
 - linuxの開発は多数の開発者がいて、各々の開発者が自分のソースコードの管理・統合をするのが非常に困難になる。その管理のために開発されたソフトウェアです。
 
@@ -46,7 +46,8 @@
 	- remote repositoryにあるデータを取得する
 	 
 - git pull 
-
+	- git fetch + git merge remote repositoryから最新を取得した上でmergeする。
+	
 ## まず使ってみよう
 - gitの基本コマンド
 	- リポジトリの作成
@@ -65,7 +66,7 @@
 			- git push origin master
 	- 履歴の確認
 		- git log
-	-   
+	
 ### git ホスティングサービス
 - gitをwebでも扱えるようにしたソフトウェア
 - remoteにあがっているgitのファイルをwebでも参照編集することもできる(ファイル共有に便利)
